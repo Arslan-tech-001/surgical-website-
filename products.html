@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Surgical Instruments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        /* Category box styling */
+        .category {
+            margin: 30px auto;
+            padding: 20px;
+            width: 80%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+
+        .category h2 {
+            color: #007bff;
+        }
+
+        /* Image styling */
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .images img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .images img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <h1>Our Surgical Instruments</h1>
+    <p>Browse through our high-quality surgical tools categorized for easy selection.</p>
+
+    <!-- Cutting Tools -->
+    <div class="category">
+        <h2>Cutting Instruments</h2>
+        <div class="images">
+            <img src="images/scalpel.jpg" alt="Scalpel">
+            <img src="images/scissors.jpg" alt="Surgical Scissors">
+            <img src="images/Bone Cutter.jpg" alt="Bone Cutter">
+        </div>
+    </div>
+
+    <!-- Grasping Tools -->
+    <div class="category">
+        <h2>Grasping Instruments</h2>
+        <div class="images">
+            <img src="images/forceps.jpg" alt="Forceps">
+            <img src="images/needle holder.jpg" alt="Needle Holder">
+        </div>
+    </div>
+
+    <!-- Clamping Tools -->
+    <div class="category">
+        <h2>Clamping Instruments</h2>
+        <div class="images">
+            <img src="images/hemostat.jpg" alt="Hemostat">
+            <img src="images/clamps.jpg" alt="Clamps">
+        </div>
+    </div>
+
+    <!-- Retracting Tools -->
+    <div class="category">
+        <h2>Retracting Instruments</h2>
+        <div class="images">
+            <img src="images/retractors.jpg" alt="Retractors">
+            <img src="images/speculum.jpg" alt="Speculum">
+        </div>
+    </div>
+
+    <!-- Probing Tools -->
+    <div class="category">
+        <h2>Probing Instruments</h2>
+        <div class="images">
+            <img src="images/probe.jpg" alt="Probe">
+            <img src="images/dilator.jpg" alt="Dilator">
+        </div>
+    </div>
+
+    <!-- Suturing Tools -->
+    <div class="category">
+        <h2>Suturing Instruments</h2>
+        <div class="images">
+            <img src="images/needle holder.jpg" alt="Needle Holders">
+            <img src="images/suture scissor.jpg" alt="Suture Scissors">
+        </div>
+    </div>
+
+    <!-- Suctioning Tools -->
+    <div class="category">
+        <h2>Suctioning Instruments</h2>
+        <div class="images">
+            <img src="images/suction tube.jpg" alt="Suction Tube">
+        </div>
+    </div>
+
+    <!-- Miscellaneous Tools -->
+    <div class="category">
+        <h2>Miscellaneous Instruments</h2>
+        <div class="images">
+            <img src="images/towel clamp.jpg" alt="Towel Clamp">
+            <img src="images/mallet.jpg" alt="Mallet">
+            <img src="images/trocar.jpg" alt="Trocar">
+        </div>
+    </div>
+</body>
+</html>
